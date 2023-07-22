@@ -9,10 +9,11 @@ Code for handling imbalanced data（SVM/Bagging SVM/Deep Learning）
 
 * pandas  
 * matplotlib  
-## Usage
-This experiment was written based on JupyterNotebook.   
-Of course, if you are having trouble using jupyter, you can run three deep learning models in py format files.  
-<u>Change your dataset path</u>  
+## Usage  
+* **First of all, you need to change your dataset path**  
+* This experiment was written based on JupyterNotebook.   
+* Of course, if you are having trouble using jupyter, you can run three deep learning models in py format files.  
+
 ## Parameters in DeepLearning models  
 * ***pos_weight***  
   Which determines the magnification of the gradient when calculating the loss of subcategory samples  
@@ -25,4 +26,5 @@ Of course, if you are having trouble using jupyter, you can run three deep learn
 ## Issue
 * Why did the output of the model not use sigmoid mapping to 0-1? Because the gradient calculation of sigmoid on small class samples was not significant during the experimental process, and the model was more overfitting  
 * If the deep learning model does not display an image after running it in jupyter notebook, you may need to add ```%matplotlib inline``` in the first line
-
+## Modified section  
+Added Minmax normalization in visualization
