@@ -1,5 +1,5 @@
 # Baggin_SVM
-Code for handling imbalanced data（SVM/Bagging SVM/Deep Learning）
+Code for handling imbalanced data（SVM/Bagging SVM/Deep Learning） 
 github [link](https://github.com/concrettojava/Bagging_SVM)
 ## Requirements
 * Python 3  
